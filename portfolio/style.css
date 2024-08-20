@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header{
+    border: 2px solid #333;
+    font-size: large;
+    /* margin: 10px 5px 10px 5px; */
+    background-color: #333;
+    color: white;
+    margin-top: 0px;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    padding-top: 10px;
+}
+header nav ul{
+    list-style-type: none;
+    display: flex; 
+    justify-content: end;
+    /* align-content: center; */
+    /* align-items: center; */
+    gap: 10px;
+    margin-right: 10px;
+}
+header ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    /* color: #4c4c4c; */
+    color: rgb(185, 185, 185);
+}
+header ul li a:hover{
+   /* animation: text 2s ease-in-out; */
+   /* border: 2px red solid; */
+   color: white;
+}
+header ul li:hover{
+    /* border: 2px red solid; */
+    background-color: rgb(198, 11, 11) !important;
+    /* animation: hero 2s; */
+}
+/* @keyframes text {
+    from{font-size: large;}
+    to{font-size: larger;}
+} */
+#intro{
+    display: flex;
+}
+#intro strong{
+    font-size: xx-large;
+}
+section{
+    /* padding-top: 20px; */
+    padding-left: 5px;
+    position: relative;
+}
+.small{
+   text-wrap: wrap;
+   /* width: 70%; */
+}
+.int_div1{
+    width: 70%;
+}
+.int_div2{
+    width: 30%;
+    /* align-items: end; */
+    justify-content: end;
+}
+.photo img{
+    width: 60%;
+    border-radius: 50%;
+    margin-top: 20px;margin-left: 45px;
+    /* align-items: end; */
+}
+#project .card_cont{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 0 5px 0 5px;
+    justify-content: center;
+    list-style: none;
+}
+.cards{
+    width: 32%;
+    border: 1px solid rgb(185, 185, 185);
+    height: 200px;
+    text-align:center;
+    box-shadow: 0px 0px 5px rgb(172, 214, 228);
+}
+.cards:hover{
+    /* width: 33%; */
+    box-shadow: 0px 0px 5px rgb(114, 148, 159);
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+.social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
